@@ -10,7 +10,7 @@ document.getElementById('submitBtn').addEventListener('click', function(e){
     const category = document.getElementById('category').value;
 
     if(eventName !== ''){
-        
+        console.log('Success');
     }else{
         ui.printMessage('Add an event or city', 'text-center alert alert-danger mt-4');
     }

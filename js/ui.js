@@ -30,10 +30,7 @@ class UI{
 
         const searchDiv = document.querySelector('#search-events');
         searchDiv.appendChild(div);
-        // setTimeout(function(){
-        //     this.removeMessage();
-        //     console.log('Set Time Out Function');
-        // }, 3000);
+        
         setTimeout(() => {
             this.removeMessage()
         }, 3000);
